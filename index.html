@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- el atributo defer hace que se carguen los scripts despues de lo que esta en el body -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">  </script>
+    <script defer src="qrcode.js"></script>
+    <title>QR - GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR - GENERATOR</h1>
+        <div id="ingdeser">
+            <img src="/SOURCE/ISOLOGO.png" alt="imagencita">
+        </div>
+        <div id="qrcode"></div>
+        <div class="items">
+            <!-- <img class="imagencita" src="http://www.vault.ingdeser.com/wp-content/uploads/2023/10/1008358560.png.png" alt=""> -->
+            <input id="text" type="text" placeholder="Eg. https://google.com">
+            <button id="convertir">CONVERTIR</button>
+        </div>
+    </div>
+</body>
+</html>
